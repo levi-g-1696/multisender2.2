@@ -1,0 +1,42 @@
+prepare file of stopflag for normal programm interruption
+read from configuration file : isEnable,isLastDest, users, passw, upfolder, arcfolder, destinationHOST, port, tempfolder
+prepare temporary folders from upfolders
+*** prepare arc folders from upfolders
+*** store tempfolders files to arc
+
+
+while (continueFlag)
+  {
+  ***prepare temporary folders from upfolders: folder and files if not exist or append new files if exist
+  }
+  for all users/destinations of conig-file do
+    {
+     check if current ip-addr is in problemIP-List do not send 10 times
+     else {
+           try send it (all the folder files), log it
+           ***remove every file was sent
+           ***remove tempfoder if is empty
+
+
+
+     on exception log it
+                  add ip-addr to  problemIP-List
+    }
+
+
+  delete files from tempfolders
+  print logo
+  every 60 sec remove old files
+  wait 10 sec
+  check stopfile . if flag=1 continueFlag=false
+  read from configuration file : isEnable,isLastDest, users, passw, upfolder, arcfolder, destinationHOST, port
+  every 1200s check tempfolders send mail if there are many
+  }
+
+-  sftp option
+-  may be psw encrypting
+- tempfolders: we create temfolder for every user-destination-port on config
+ check plan :
+ 1. 5 users to 3 ip
+ 2. 20 users 3 not working
+ 3. 20 users 3 not workig sycronized

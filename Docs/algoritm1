@@ -1,0 +1,23 @@
+prepare file of stopflag for normal programm interruption
+read from configuration file : isEnable,isLastDest, users, passw, upfolder, arcfolder, destinationHOST, port, tempfolder
+prepare temporary folders from upfolders
+while (continueFlag)
+  {
+  for all users/destinations of conig-file do
+    {
+     check if current ip-addr is in problemIP-List do not send 10 times
+     else try send it ,
+              remove it
+              log it (all the folder files)
+     on exception log it
+                  add ip-addr to  problemIP-List
+    }
+@@ threre is on main file additional:
+  store tempfolders files to arc
+  delete files from tempfolders
+  print logo
+  every 60 sec remove old files
+  wait 10 sec
+  check stopfile . if flag=1 continueFlag=false
+  }
+  -- no was used to make only 1 arcfolder

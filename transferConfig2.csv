@@ -1,0 +1,5 @@
+Enable,LastDest,users,passw,upfolders,arcfolders,destinationIP,port,tempfolders,description,
+1,0,Mbokek,s12345,C:\Users\wn10\Desktop\1\may22\src\sr1,C:\Users\wn10\Desktop\1\may22\arc\1,81.218.166.163,10021,C:\Users\wn10\Desktop\1\may22\temp\1t,ext heli,
+1,1,Mbokek,s12345,No,C:\Users\wn10\Desktop\1\may22\arc\1,192.168.4.240,21,C:\Users\wn10\Desktop\1\may22\temp\1t,lab lap,
+1,0,test,ts12345,C:\Users\wn10\Desktop\1\may22\src\sr2,C:\Users\wn10\Desktop\1\may22\arc\2,192.168.4.240,21,C:\Users\wn10\Desktop\1\may22\temp\2t,lab lap,
+1,0,tech8,ts12345,C:\Users\wn10\Desktop\1\may22\src\sr3,C:\Users\wn10\Desktop\1\may22\arc\3,192.168.4.240,21,C:\Users\wn10\Desktop\1\may22\temp\3t,lab lap,

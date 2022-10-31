@@ -1,0 +1,25 @@
+Enable_Sending,EnableAlert,users,passw,upfolders,arcfolders,destinationIP,port,protocol,description
+1,0,test1,tstPSW,D:\filezila folders\test1-d,,84.110.115.67,21021,FTP,sftp virt srv
+1,0,test1,tstPSW,D:\filezila folders\test1-d,,2.55.89.1,22,sftp,miniSFTP
+1,0,test2,tstPSW,D:\filezila folders\test2-d,,84.110.115.67,21021,FTP,sftp virt srv
+1,0,test2,tstPSW,D:\filezila folders\test2-d,,2.55.89.1,22,sftp,miniSFTP
+1,0,test3,tstPSW,D:\filezila folders\test3-d,,84.110.115.67,21021,FTP,sftp virt srv
+1,0,test3,tstPSW,D:\filezila folders\test3-d,,2.55.89.1,22,sftp,miniSFTP
+1,0,test4,tstPSW,D:\filezila folders\test4-d,,84.110.115.67,21021,FTP,sftp virt srv
+1,0,test4,tstPSW,D:\filezila folders\test4-d,,2.55.89.1,21,ftp,miniSFTP
+1,0,test5,tstPSW,D:\filezila folders\test5-d,,84.110.115.67,21021,FTP,sftp virt srv
+1,0,test5,tstPSW,D:\filezila folders\test5-d,,2.55.89.1,21,ftp,miniSFTP
+1,0,test6,tstPSW,D:\filezila folders\test6-d,,84.110.115.67,21021,FTP,sftp virt srv
+1,0,test6,tstPSW,D:\filezila folders\test6-d,,2.55.89.1,21,ftp,miniSFTP
+1,1,test10,tstPSW,D:\filezila folders\test10-ml,,84.110.115.67,21021,FTP,sftp virt srv
+1,1,test10,tstPSW,D:\filezila folders\test10-ml,,2.55.89.1,21,ftp,miniSFTP
+1,1,test11,tstPSW,D:\filezila folders\test11-ml,,84.110.115.67,21021,FTP,sftp virt srv
+1,1,test11,tstPSW,D:\filezila folders\test11-ml,,2.55.89.1,21,ftp,miniSFTP
+1,1,test12,tstPSW,D:\filezila folders\test12-ml,,84.110.115.67,21021,FTP,sftp virt srv
+1,1,test12,tstPSW,D:\filezila folders\test12-ml,,2.55.89.1,21,ftp,miniSFTP
+1,1,test13,tstPSW,D:\filezila folders\test13-ml,,84.110.115.67,21021,FTP,sftp virt srv
+1,1,test13,tstPSW,D:\filezila folders\test13-ml,,2.55.89.1,21,ftp,miniSFTP
+1,1,test14,tstPSW,D:\filezila folders\test14-ml,,84.110.115.67,21021,FTP,sftp virt srv
+1,1,test14,tstPSW,D:\filezila folders\test14-ml,,2.55.89.1,21,ftp,miniSFTP
+1,1,test15,tstPSW,D:\filezila folders\test15-ml,,84.110.115.67,21021,FTP,sftp virt srv
+1,1,test15,tstPSW,D:\filezila folders\test15-ml,,2.55.89.1,21,ftp,miniSFTP

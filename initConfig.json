@@ -1,0 +1,8 @@
+{
+  "workDirectory":"C:\\multisender2.2",
+  "ftpExceptEscapecount":"30",
+  "fileNumberLimitforAlert":"120",
+  "mailAlertPeriod": "60"
+
+
+}
